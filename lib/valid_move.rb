@@ -14,8 +14,6 @@ def position_taken?(board, index)
   # empty string means free
   if board[index] == " "
     false
-  elsif board[index] == nil
-    false
   else
     true
   end
